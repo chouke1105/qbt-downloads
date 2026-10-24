@@ -11,7 +11,7 @@ and its development history are not hosted in this repository.
 | --- | --- |
 | QBT_Setup_Dev_1.3.38_Clean_PC.zip | 建議新電腦使用：安裝程式、ADB、板端部署腳本及README |
 | QBT_Setup_Dev_1.3.38.exe | 已有ADB環境時，可單獨安裝Windows工具 |
-| Linux ARM64 Menu CLI | 公開下載暫緩：先確認隨附參考音源的公開散布權限，或替換為合成測試音 |
+| QBT_BT_BLE_Menu_CLI_1.5.11_ARM64_20261024.zip | Linux ARM64板端互動選單、部署／啟動／拉取及清理log腳本 |
 | SHA256SUMS.txt | 下載檔案SHA-256校驗值 |
 
 ## Windows快速開始
@@ -27,7 +27,7 @@ BlueZ/PipeWire工具仍須支援測項。音訊驗證避免RDP音訊重新導向
 
 ## CLI快速開始
 
-CLI公開下載尚待音源確認。取得CLI包後完整解壓縮，依README_zh-TW.md或README_EN.md使用01_deploy.cmd，
+完整解壓縮CLI.zip，依README_zh-TW.md或README_EN.md使用01_deploy.cmd，
 再選擇02_start_language_menu.cmd、03_start_english.cmd或04_start_chinese.cmd。
 06_cleanup_logs.cmd會先預覽，需明確確認才刪除板端舊log。
 
